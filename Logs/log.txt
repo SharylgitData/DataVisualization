@@ -5068,3 +5068,808 @@
 {"ts":"2025-01-08T19:00:14.181","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:79f07383-96e5-44a6-8bbb-120d2ab87693): stream truncated"}
 {"ts":"2025-01-08T19:00:14.184","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
 {"ts":"2025-01-08T19:00:14.185","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T19:14:34.171","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-08T19:14:34.175","pid":48017,"tid":"25b7b9","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T19:14:34.177","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T19:14:34.252","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T19:14:34.253","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T19:14:34.254","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T19:14:34.844","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T19:14:34.844","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T19:14:34.844","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T19:14:34.878","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T19:14:34.878","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T19:14:34.878","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T19:14:34.880","pid":48017,"tid":"25b7b9","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T19:14:34.883","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T19:14:34.883","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T19:14:34.883","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T19:14:35.251","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T19:14:35.251","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T19:14:35.251","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T19:14:35.253","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T19:14:35.253","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:14:35.255","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:14:35.270","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T19:14:35.270","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:14:35.271","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:14:35.273","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T19:14:35.273","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T19:14:35.273","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T19:14:35.273","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T19:14:35.276","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T19:20:53.519","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-08T19:20:53.522","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T19:20:53.523","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T19:20:53.565","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T19:20:53.566","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T19:20:53.571","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T19:20:54.035","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T19:20:54.035","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T19:20:54.035","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T19:20:54.066","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T19:20:54.066","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T19:20:54.066","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T19:20:54.068","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T19:20:54.071","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T19:20:54.071","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T19:20:54.071","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T19:20:54.448","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T19:20:54.448","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T19:20:54.448","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T19:20:54.449","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T19:20:54.449","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:20:54.451","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:20:54.465","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T19:20:54.465","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:20:54.466","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T19:20:54.468","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T19:20:54.468","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T19:20:54.469","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T19:20:54.469","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T19:20:54.469","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T19:20:54.470","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-08T19:27:23.438","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T19:27:23.922","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:a244292c-cba1-4c9c-9dfc-c08c4f23d1a4): stream truncated"}
+{"ts":"2025-01-08T19:27:23.922","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T19:30:13.774","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-08T19:30:14.112","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:846546e1-c224-4355-ba46-80af73cfec8f): stream truncated"}
+{"ts":"2025-01-08T19:30:14.116","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T19:30:14.116","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-08T19:57:23.473","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T19:57:23.951","pid":48017,"tid":"25b8f0","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:d8c41501-b54d-4330-802b-51baa8f11d4e): stream truncated"}
+{"ts":"2025-01-08T19:57:23.951","pid":48017,"tid":"25b8f0","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T20:00:13.785","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-08T20:00:14.165","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:d6027090-1a62-404a-8190-95048c6eb59a): stream truncated"}
+{"ts":"2025-01-08T20:00:14.184","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T20:00:14.184","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-08T20:14:34.204","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Async task started "}
+{"ts":"2025-01-08T20:14:34.207","pid":48017,"tid":"25b85f","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T20:14:34.212","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T20:14:34.229","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T20:14:34.229","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T20:14:34.230","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T20:14:34.820","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T20:14:34.820","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T20:14:34.820","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T20:14:34.842","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T20:14:34.842","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T20:14:34.843","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T20:14:34.844","pid":48017,"tid":"25b85f","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T20:14:34.849","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T20:14:34.849","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T20:14:34.849","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T20:14:35.216","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T20:14:35.216","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T20:14:35.216","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T20:14:35.217","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T20:14:35.217","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:14:35.219","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:14:35.233","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T20:14:35.233","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:14:35.234","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:14:35.236","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T20:14:35.237","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T20:14:35.237","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T20:14:35.237","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T20:14:35.237","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T20:14:35.237","pid":48017,"tid":"25b85f","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Async task completed "}
+{"ts":"2025-01-08T20:21:54.521","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-08T20:21:54.526","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T20:21:54.529","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T20:21:54.631","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T20:21:54.632","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T20:21:54.633","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T20:21:55.217","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T20:21:55.217","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T20:21:55.217","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T20:21:55.252","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T20:21:55.253","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T20:21:55.253","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T20:21:55.254","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T20:21:55.258","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T20:21:55.258","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T20:21:55.258","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T20:21:55.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T20:21:55.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T20:21:55.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T20:21:55.635","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T20:21:55.636","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:21:55.637","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:21:55.652","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T20:21:55.652","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:21:55.653","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T20:21:55.655","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T20:21:55.655","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T20:21:55.655","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T20:21:55.655","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T20:21:55.656","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T20:21:55.656","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-08T20:27:23.503","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T20:27:24.002","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:8d966705-4501-44e9-81d6-363c7d8fcba7): stream truncated"}
+{"ts":"2025-01-08T20:27:24.002","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T20:30:13.796","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-08T20:30:14.191","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:10c2e205-2327-4b7e-9d69-8f8c277f50c3): stream truncated"}
+{"ts":"2025-01-08T20:30:14.194","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T20:30:14.195","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-08T20:57:23.538","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T20:57:23.982","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:b3524658-f5bd-4c0b-bd55-0ca05bbc6bbb): stream truncated"}
+{"ts":"2025-01-08T20:57:23.982","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T21:18:09.910","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-08T21:18:09.963","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:6b5bf333-e845-44aa-a6cf-de9bf942ee25): Host not found (authoritative)"}
+{"ts":"2025-01-08T21:18:09.966","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T21:18:09.966","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-08T21:36:34.039","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-08T21:36:34.042","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T21:36:34.047","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T21:36:35.290","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T21:36:35.291","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T21:36:35.292","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T21:36:35.936","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T21:36:35.937","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T21:36:35.937","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T21:36:36.010","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T21:36:36.010","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T21:36:36.010","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T21:36:36.012","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T21:36:36.014","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T21:36:36.014","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T21:36:36.014","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T21:36:36.379","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T21:36:36.379","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T21:36:36.379","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T21:36:36.380","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T21:36:36.380","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T21:36:36.382","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T21:36:36.398","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T21:36:36.398","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T21:36:36.399","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T21:36:36.402","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T21:36:36.403","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T21:36:36.403","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T21:36:36.403","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T21:36:36.403","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T21:36:36.404","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-08T21:36:38.020","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T21:36:38.026","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:b520815d-750e-41c5-8fba-d8aaf289f501): Host not found (authoritative)"}
+{"ts":"2025-01-08T21:36:38.026","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T22:09:06.547","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T22:09:06.567","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:64aa086b-abaf-4206-84ab-08035a911036): Host not found (authoritative)"}
+{"ts":"2025-01-08T22:09:06.568","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T22:26:45.100","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-08T22:26:45.590","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:4f7c7856-a968-49e7-a7fb-9c3eff678c72): stream truncated"}
+{"ts":"2025-01-08T22:26:45.594","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T22:26:45.594","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-08T22:42:06.675","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T22:42:07.169","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:db22516b-8189-4f8c-88db-35ce9e40e5e4): stream truncated"}
+{"ts":"2025-01-08T22:42:07.169","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T22:57:38.978","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-08T22:57:38.998","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T22:57:39.004","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T22:57:39.290","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T22:57:39.343","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T22:57:39.352","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T22:57:40.357","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T22:57:40.359","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T22:57:40.359","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T22:57:40.432","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T22:57:40.433","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T22:57:40.434","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T22:57:40.436","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T22:57:40.448","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T22:57:40.448","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T22:57:40.448","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T22:57:41.203","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T22:57:41.203","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T22:57:41.203","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T22:57:41.205","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T22:57:41.205","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T22:57:41.207","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T22:57:41.220","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T22:57:41.220","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T22:57:41.221","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T22:57:41.223","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T22:57:41.224","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T22:57:41.224","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T22:57:41.224","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T22:57:41.224","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T22:57:41.225","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-08T23:12:06.832","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T23:12:07.344","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:8c304854-f300-45d5-a6a1-c5b651ae88e0): stream truncated"}
+{"ts":"2025-01-08T23:12:07.344","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T23:14:32.190","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-08T23:14:32.698","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:c841bd60-7983-4fe4-a3ff-675fa86dc150): stream truncated"}
+{"ts":"2025-01-08T23:14:32.700","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-08T23:14:32.700","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T23:22:51.550","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-08T23:22:51.555","pid":48017,"tid":"25b7b9","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T23:22:51.557","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T23:22:51.742","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T23:22:51.743","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T23:22:51.744","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T23:22:52.378","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T23:22:52.379","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T23:22:52.379","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T23:22:52.410","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T23:22:52.410","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T23:22:52.411","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T23:22:52.412","pid":48017,"tid":"25b7b9","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T23:22:52.420","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T23:22:52.420","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T23:22:52.420","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T23:22:52.811","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T23:22:52.811","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T23:22:52.811","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T23:22:52.812","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T23:22:52.812","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:22:52.814","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:22:52.827","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T23:22:52.827","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:22:52.828","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:22:52.829","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T23:22:52.830","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T23:22:52.830","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T23:22:52.830","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T23:22:52.830","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T23:42:06.860","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-08T23:42:07.370","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:f588b353-c079-416f-a3fd-b4d895bd665e): stream truncated"}
+{"ts":"2025-01-08T23:42:07.370","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-08T23:44:32.211","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-08T23:44:33.861","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:0d21c85a-be60-472f-bf96-9baae4c57608): stream truncated"}
+{"ts":"2025-01-08T23:44:33.892","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-08T23:44:33.893","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-08T23:52:31.219","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Processing FileOpen event. MainWindow is ready. File:/Users/sharyl/Documents/My Tableau Repository/Workbooks/midTerm/MIDTERM.twbx"}
+{"ts":"2025-01-08T23:59:16.846","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-08T23:59:16.850","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-08T23:59:16.852","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-08T23:59:16.904","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T23:59:16.905","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T23:59:16.905","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T23:59:17.511","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T23:59:17.512","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-08T23:59:17.512","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T23:59:17.530","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T23:59:17.530","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-08T23:59:17.530","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-08T23:59:17.532","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-08T23:59:17.538","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-08T23:59:17.538","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-08T23:59:17.538","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-08T23:59:17.869","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-08T23:59:17.869","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-08T23:59:17.869","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-08T23:59:17.870","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T23:59:17.870","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:59:17.872","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:59:17.884","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-08T23:59:17.884","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:59:17.884","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-08T23:59:17.886","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-08T23:59:17.887","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-08T23:59:17.887","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-08T23:59:17.887","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-08T23:59:17.887","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-08T23:59:17.888","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T00:12:06.884","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T00:12:07.317","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:49e6ab2b-a5dd-4c37-8f96-60a7dcb6d0ed): stream truncated"}
+{"ts":"2025-01-09T00:12:07.317","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T00:14:32.232","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-09T00:14:32.699","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:5be6ad54-c9b1-47e6-99e3-0392e1ce46bd): stream truncated"}
+{"ts":"2025-01-09T00:14:32.703","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-09T00:14:32.704","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-09T00:22:51.676","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Async task started "}
+{"ts":"2025-01-09T00:22:51.677","pid":48017,"tid":"25b85d","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T00:22:51.678","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T00:22:51.707","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T00:22:51.708","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T00:22:51.709","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T00:22:52.294","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T00:22:52.295","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T00:22:52.295","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T00:22:52.323","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T00:22:52.323","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T00:22:52.324","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T00:22:52.325","pid":48017,"tid":"25b85d","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T00:22:52.341","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T00:22:52.341","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T00:22:52.341","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T00:22:52.705","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T00:22:52.705","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T00:22:52.705","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T00:22:52.706","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T00:22:52.706","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T00:22:52.708","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T00:22:52.711","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T00:22:52.711","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T00:22:52.711","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T00:22:52.715","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T00:22:52.715","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T00:22:52.716","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T00:22:52.716","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T00:22:52.717","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T00:22:52.717","pid":48017,"tid":"25b85d","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Async task completed "}
+{"ts":"2025-01-09T00:42:06.923","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T00:42:07.366","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:c2dea942-46ce-48ee-b359-a8106fa3222f): stream truncated"}
+{"ts":"2025-01-09T00:42:07.366","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T00:44:32.252","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-09T00:44:32.633","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:5ee1a431-128d-4e6a-a413-8f5f60beb249): stream truncated"}
+{"ts":"2025-01-09T00:44:32.639","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-09T00:44:32.639","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-09T01:00:17.913","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T01:00:17.917","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T01:00:17.920","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T01:00:18.052","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T01:00:18.053","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T01:00:18.054","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T01:00:18.597","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T01:00:18.597","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T01:00:18.597","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T01:00:18.629","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T01:00:18.630","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T01:00:18.630","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T01:00:18.632","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T01:00:18.639","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T01:00:18.639","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T01:00:18.639","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T01:00:18.965","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T01:00:18.965","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T01:00:18.965","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T01:00:18.967","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T01:00:18.967","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T01:00:18.969","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T01:00:18.982","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T01:00:18.982","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T01:00:18.982","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T01:00:18.985","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T01:00:18.986","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T01:00:18.987","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T01:00:18.987","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T01:00:18.988","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T01:00:18.988","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T01:14:39.503","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T01:14:40.158","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:fbfa685a-8e8e-4591-9f9d-b8cd97b38120): stream truncated"}
+{"ts":"2025-01-09T01:14:40.158","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T01:14:41.533","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-09T01:14:41.880","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:f6fe89bd-9f94-4e88-a3ff-77340abf95d6): stream truncated"}
+{"ts":"2025-01-09T01:14:41.883","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-09T01:14:41.883","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-09T01:46:55.968","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T01:46:56.318","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:3e789015-236f-4508-9438-d57bc1d665f2): stream truncated"}
+{"ts":"2025-01-09T01:46:56.318","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T02:03:53.847","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T02:03:53.848","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T02:03:53.851","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T02:03:55.285","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T02:03:55.315","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T02:03:55.316","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T02:03:56.569","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T02:03:56.570","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T02:03:56.570","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T02:03:56.606","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T02:03:56.606","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T02:03:56.606","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T02:03:56.607","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T02:03:56.615","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T02:03:56.615","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T02:03:56.615","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T02:03:57.603","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T02:03:57.603","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T02:03:57.603","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T02:03:57.604","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T02:03:57.604","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T02:03:57.606","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T02:03:57.616","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T02:03:57.616","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T02:03:57.616","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T02:03:57.618","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T02:03:57.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T02:03:57.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T02:03:57.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T02:03:57.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T02:03:57.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T02:21:52.278","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T02:21:52.766","pid":48017,"tid":"25b8f0","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:11283bb8-19fc-443d-ad7d-51360a704915): stream truncated"}
+{"ts":"2025-01-09T02:21:52.766","pid":48017,"tid":"25b8f0","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T02:53:06.883","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T02:53:07.654","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:e7515e47-57ff-43ef-bfe4-688dd9743a4e): stream truncated"}
+{"ts":"2025-01-09T02:53:07.655","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T03:36:59.981","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T03:36:59.985","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T03:36:59.995","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T03:37:00.321","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T03:37:00.322","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T03:37:00.323","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T03:37:01.071","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T03:37:01.427","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:6cd8f293-e339-4db0-8edd-df2e10f8e57c): stream truncated"}
+{"ts":"2025-01-09T03:37:01.427","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T03:37:01.432","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T03:37:01.432","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T03:37:01.433","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T03:37:01.466","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T03:37:01.466","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T03:37:01.466","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T03:37:01.467","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T03:37:01.473","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T03:37:01.473","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T03:37:01.473","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T03:37:02.276","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T03:37:02.276","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T03:37:02.276","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T03:37:02.281","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T03:37:02.282","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T03:37:02.284","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T03:37:02.471","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T03:37:02.471","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T03:37:02.472","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T03:37:02.475","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T03:37:02.475","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T03:37:02.476","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T03:37:02.476","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T03:37:02.476","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T03:37:02.476","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T04:10:33.419","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T04:10:34.562","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:cc556b5b-2f37-4f0d-8b33-fa14da742781): stream truncated"}
+{"ts":"2025-01-09T04:10:34.562","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T04:49:51.528","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T04:49:51.877","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:9500b68d-be5d-4db4-b3c3-84cfed8d5e9e): stream truncated"}
+{"ts":"2025-01-09T04:49:51.877","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T05:05:14.872","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T05:05:14.873","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T05:05:14.873","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T05:05:15.343","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T05:05:15.343","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T05:05:15.344","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T05:05:16.405","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T05:05:16.406","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T05:05:16.406","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T05:05:16.452","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T05:05:16.453","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T05:05:16.453","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T05:05:16.454","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T05:05:16.461","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T05:05:16.461","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T05:05:16.461","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T05:05:17.187","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T05:05:17.187","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T05:05:17.187","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T05:05:17.188","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T05:05:17.189","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T05:05:17.191","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T05:05:17.204","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T05:05:17.204","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T05:05:17.205","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T05:05:17.206","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T05:05:17.206","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T05:05:17.206","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T05:05:17.206","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T05:05:17.207","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T05:05:17.207","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T05:20:32.840","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T05:20:33.213","pid":48017,"tid":"25b8f0","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:9d9b6cc6-6a52-447d-bcba-06e94d59393c): stream truncated"}
+{"ts":"2025-01-09T05:20:33.214","pid":48017,"tid":"25b8f0","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T05:54:05.182","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T05:54:05.575","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:75e1cd9b-5bd8-4c3b-8c8a-1ed99c815533): stream truncated"}
+{"ts":"2025-01-09T05:54:05.576","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T06:26:26.875","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T06:26:26.875","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T06:26:26.875","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T06:26:27.215","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T06:26:27.215","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T06:26:27.215","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T06:26:27.456","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T06:26:27.768","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T06:26:27.768","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T06:26:27.768","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T06:26:27.770","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T06:26:27.770","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T06:26:27.770","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T06:26:27.770","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T06:26:27.778","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T06:26:27.778","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T06:26:27.779","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T06:26:27.784","pid":48017,"tid":"25b8f0","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:fe724da0-30de-4849-9e87-375d492ba6c6): stream truncated"}
+{"ts":"2025-01-09T06:26:27.784","pid":48017,"tid":"25b8f0","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T06:26:28.318","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T06:26:28.318","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T06:26:28.318","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T06:26:28.318","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T06:26:28.318","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T06:26:28.319","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T06:26:28.320","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T06:57:53.773","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T06:57:54.472","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:6a77f9a6-b6e5-4997-ab10-9da0412f4a82): stream truncated"}
+{"ts":"2025-01-09T06:57:54.472","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T07:30:44.920","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T07:30:46.564","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:0f27693b-1751-481f-a822-2f96d6de2676): stream truncated"}
+{"ts":"2025-01-09T07:30:46.564","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T07:46:57.854","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T07:46:57.855","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T07:46:57.897","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T07:46:59.124","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T07:46:59.125","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T07:46:59.126","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T07:47:00.736","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T07:47:00.766","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T07:47:00.766","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T07:47:00.870","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T07:47:00.870","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T07:47:00.870","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T07:47:00.872","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T07:47:00.877","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T07:47:00.877","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T07:47:00.877","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T07:47:01.664","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T07:47:01.664","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T07:47:01.664","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T07:47:01.664","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T07:47:01.664","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T07:47:01.665","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T07:47:01.674","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T07:47:01.674","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T07:47:01.724","pid":48017,"tid":"25b869","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0x6ADC10DB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"FlexNet Activation API handle is invalid. Function flxActCommonHandleOpen returned error (50003, 71000, 0) LM_TS_OPEN_ERROR\nTableau could not access Trusted Storage. Verify that the latest version of the FlexNet Licensing Service is running as a network service. If that does not resolve the issue, try reinstalling Tableau Desktop or Tableau Server."}
+{"ts":"2025-01-09T07:47:01.731","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::SendReportsContinuously() - TableauException occurred: Tableau could not access Trusted Storage. Verify that the latest version of the FlexNet Licensing Service is running as a network service. If that does not resolve the issue, try reinstalling Tableau Desktop or Tableau Server.\nLogicException details: Exception\n"}
+{"ts":"2025-01-09T08:03:02.472","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T08:03:02.846","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:17bf4c38-fca2-4044-9250-98f5b9b79dfe): stream truncated"}
+{"ts":"2025-01-09T08:03:02.846","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T08:36:03.992","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T08:36:04.553","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:f0999b4d-c624-4e40-8ab6-0bca8c6b6543): stream truncated"}
+{"ts":"2025-01-09T08:36:04.554","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T09:15:45.078","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T09:15:45.082","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T09:15:45.089","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T09:15:45.111","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T09:15:46.206","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T09:15:46.207","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T09:15:46.207","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T09:15:46.493","pid":48017,"tid":"25b8f0","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:4952dbc7-a46e-4005-a1cc-72fbcfe9cb16): stream truncated"}
+{"ts":"2025-01-09T09:15:46.493","pid":48017,"tid":"25b8f0","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T09:15:47.367","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T09:15:47.368","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T09:15:47.368","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T09:15:47.403","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T09:15:47.403","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T09:15:47.403","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T09:15:47.405","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T09:15:47.413","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T09:15:47.413","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T09:15:47.413","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T09:15:49.274","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T09:15:49.274","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T09:15:49.274","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T09:15:49.344","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T09:15:49.408","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T09:15:49.452","pid":48017,"tid":"25b869","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0x6ADC10DB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"FlexNet Activation API handle is invalid. Function flxActCommonHandleOpen returned error (50003, 71000, 0) LM_TS_OPEN_ERROR\nTableau could not access Trusted Storage. Verify that the latest version of the FlexNet Licensing Service is running as a network service. If that does not resolve the issue, try reinstalling Tableau Desktop or Tableau Server."}
+{"ts":"2025-01-09T09:15:49.462","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T09:15:49.462","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T09:15:49.463","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T09:15:49.465","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T09:15:49.466","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T09:15:49.466","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T09:15:49.466","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T09:15:49.467","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T09:15:49.467","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T09:47:37.493","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T09:47:37.874","pid":48017,"tid":"25b8f0","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:0cee9020-772c-427e-9bd2-2e40763ec91d): stream truncated"}
+{"ts":"2025-01-09T09:47:37.875","pid":48017,"tid":"25b8f0","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T10:34:39.143","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T10:34:39.275","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T10:34:39.294","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T10:34:39.394","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T10:34:39.395","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T10:34:39.405","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T10:34:40.503","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T10:34:40.659","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T10:34:40.659","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T10:34:40.659","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T10:34:40.662","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T10:34:40.663","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T10:34:40.663","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T10:34:40.663","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T10:34:40.667","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T10:34:40.667","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T10:34:40.667","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T10:34:40.968","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:11ce07b6-834d-46ca-bc39-6d6fa8ba5370): stream truncated"}
+{"ts":"2025-01-09T10:34:40.968","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T10:34:41.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T10:34:41.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T10:34:41.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T10:34:41.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T10:34:41.619","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T10:34:41.620","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T10:34:41.632","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T10:34:41.632","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T10:34:41.633","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T10:34:41.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T10:34:41.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T10:34:41.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T10:34:41.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T10:34:41.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T10:34:41.634","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T11:16:41.199","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T11:16:41.671","pid":48017,"tid":"25b8ef","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:b26f7a17-e2d7-4079-ae82-1f308b6437bb): stream truncated"}
+{"ts":"2025-01-09T11:16:41.672","pid":48017,"tid":"25b8ef","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T11:49:11.122","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T11:49:11.123","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T11:49:11.177","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T11:49:11.288","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T11:49:11.290","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T11:49:11.291","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T11:49:12.561","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T11:49:13.043","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:1d98d158-7e2f-4cdd-ada0-e89cac383a46): stream truncated"}
+{"ts":"2025-01-09T11:49:13.044","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T11:49:13.094","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T11:49:13.094","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T11:49:13.094","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T11:49:13.310","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T11:49:13.311","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T11:49:13.311","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T11:49:13.325","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T11:49:13.334","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T11:49:13.334","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T11:49:13.334","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T11:49:14.211","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T11:49:14.211","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T11:49:14.211","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T11:49:14.216","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T11:49:14.216","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T11:49:14.218","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T11:49:14.381","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T11:49:14.381","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T11:49:14.753","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T11:49:14.756","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T11:49:14.759","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T11:49:14.759","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T11:49:14.759","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T11:49:14.759","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T11:49:14.760","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T12:02:01.069","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-09T12:02:01.081","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:9a68b797-18b0-473e-9e31-c3c4136aa5ab): Host not found (authoritative)"}
+{"ts":"2025-01-09T12:02:01.083","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-09T12:02:01.083","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-09T12:30:28.939","pid":48017,"tid":"25b8f2","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T12:30:29.340","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:04d4091a-c75e-4bc4-8c6d-5b8d3d2d7e80): stream truncated"}
+{"ts":"2025-01-09T12:30:29.340","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T12:34:03.089","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-09T12:34:03.564","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:43ab008b-2bca-4419-89b5-0ab740440e89): stream truncated"}
+{"ts":"2025-01-09T12:34:03.567","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-09T12:34:03.568","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-09T12:42:21.476","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T12:42:21.479","pid":48017,"tid":"25b7b9","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T12:42:21.484","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T12:42:21.502","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T12:42:21.503","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T12:42:21.505","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T12:42:22.105","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T12:42:22.106","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T12:42:22.106","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T12:42:22.147","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T12:42:22.148","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T12:42:22.148","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T12:42:22.149","pid":48017,"tid":"25b7b9","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T12:42:22.152","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T12:42:22.152","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T12:42:22.152","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T12:42:22.484","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T12:42:22.484","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T12:42:22.484","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T12:42:22.486","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T12:42:22.486","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:42:22.488","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:42:22.504","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T12:42:22.504","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:42:22.504","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:42:22.506","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T12:42:22.507","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T12:42:22.507","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T12:42:22.507","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T12:42:22.509","pid":48017,"tid":"25b7b9","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T12:54:35.689","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T12:54:35.693","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T12:54:35.696","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T12:54:35.884","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T12:54:35.885","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T12:54:35.896","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T12:54:37.349","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T12:54:37.349","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T12:54:37.349","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T12:54:37.352","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T12:54:37.352","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T12:54:37.352","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T12:54:37.352","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T12:54:37.356","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T12:54:37.356","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T12:54:37.356","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T12:54:37.739","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T12:54:37.739","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T12:54:37.739","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T12:54:37.739","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T12:54:37.740","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:54:37.740","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:54:37.742","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T12:54:37.742","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:54:37.743","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T12:54:37.743","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T12:54:37.744","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T12:54:37.744","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T12:54:37.744","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T12:54:37.745","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T12:54:37.746","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T13:00:29.349","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T13:00:31.227","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:78f3581e-e865-412a-b550-0faa44a7233e): stream truncated"}
+{"ts":"2025-01-09T13:00:31.238","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T13:04:03.102","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-09T13:04:03.449","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:15fbf413-9bad-4f22-986a-4beb574c2cc1): stream truncated"}
+{"ts":"2025-01-09T13:04:03.450","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-09T13:04:03.450","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-09T13:30:43.787","pid":48017,"tid":"25b8f3","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T13:30:43.809","pid":48017,"tid":"25b8f0","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:4084d3c9-f461-4828-86b8-83901fd0988f): Host not found (authoritative)"}
+{"ts":"2025-01-09T13:30:43.809","pid":48017,"tid":"25b8f0","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T14:09:58.913","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CachingVerifier: Updating license in main thread "}
+{"ts":"2025-01-09T14:09:58.917","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::Lookup FeatureFID"}
+{"ts":"2025-01-09T14:09:58.925","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN InfoUtils::LookupAll"}
+{"ts":"2025-01-09T14:10:00.099","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T14:10:00.100","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T14:10:00.102","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T14:10:00.994","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T14:10:01.255","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T14:10:01.256","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: -73 (LM_LOCALFILTER)\n"}
+{"ts":"2025-01-09T14:10:01.256","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T14:10:01.261","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T14:10:01.261","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"ManagedLicensingATRPersistence<T_ATRProtobufObj, T_SupportedConfigProtobufObj>::LoadAllATRsForProvidedSubProduct - saATRNode Count = 0."}
+{"ts":"2025-01-09T14:10:01.261","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END InfoUtils::LookupAll"}
+{"ts":"2025-01-09T14:10:01.262","pid":48017,"tid":"25b869","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"InfoUtils::Lookup: In entitlement: Signature=1657 645F DE33 D23C 1D37 0E93 2EC1 6CBA 1880 1ED1 B179 9ED0 84BC D244 863F 0582 C0D4 F335 BEA4 6329 CE6D CC07 AF38 DB34 B450 AD4B 58C1 56C5 C0BA F985, FulfillmentId=FID_b3195aae_4748_479a_b1b4_71b0042592d6"}
+{"ts":"2025-01-09T14:10:01.265","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"JobProxy() created with no license file set"}
+{"ts":"2025-01-09T14:10:01.265","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN JobProxy::Checkout"}
+{"ts":"2025-01-09T14:10:01.265","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN lc_checkout"}
+{"ts":"2025-01-09T14:10:01.406","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:bcad30e6-398d-4d75-8afc-febbc8c55314): stream truncated"}
+{"ts":"2025-01-09T14:10:01.407","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
+{"ts":"2025-01-09T14:10:01.850","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END lc_checkout"}
+{"ts":"2025-01-09T14:10:01.850","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"lc_checkout return information: 0 (LM_NOERROR)\n"}
+{"ts":"2025-01-09T14:10:01.850","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"END JobProxy::Checkout"}
+{"ts":"2025-01-09T14:10:01.850","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T14:10:01.850","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T14:10:01.851","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T14:10:01.859","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"BEGIN GetUniqueId"}
+{"ts":"2025-01-09T14:10:01.859","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T14:10:01.859","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"CommonHandleProxy called"}
+{"ts":"2025-01-09T14:10:01.862","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"Registration: Silently register user: 0"}
+{"ts":"2025-01-09T14:10:01.862","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Check if key 8fb7827e exists and has value greater than 9"}
+{"ts":"2025-01-09T14:10:01.862","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: key 8fb7827e found with value 13"}
+{"ts":"2025-01-09T14:10:01.862","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IsRegistered: Desktop: 1"}
+{"ts":"2025-01-09T14:10:01.863","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"GetLicenseState(): Successfully updated licenses from Trusted Storage and refreshed license cache"}
+{"ts":"2025-01-09T14:10:01.863","pid":48017,"tid":"25b869","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"IdBasedActivationReporter::IsTimeToSendReport(): Failed to parse last_iba_report_date into a DateTime object."}
+{"ts":"2025-01-09T14:26:22.921","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] telemetry: Downloading events configuration"}
+{"ts":"2025-01-09T14:26:23.351","pid":48017,"tid":"25b873","sev":"error","req":"-","sess":"-","site":"-","user":"-","k":"msg","e":{"excp-error-code":"0xF58ECFDB","excp-source":"NeedsClassification","excp-status-code":"UNKNOWN"},"v":"[xdev-edpa-007] EventsConfigurator: download events configuration(rid:2db4f6bf-9a65-4580-b84e-e1ed2fe856f3): stream truncated"}
+{"ts":"2025-01-09T14:26:23.353","pid":48017,"tid":"25b873","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] AsyncHttpRequest::Complete finished"}
+{"ts":"2025-01-09T14:26:23.353","pid":48017,"tid":"25b874","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[xdev-edpa-007] Events configuration has been updated: block: []"}
+{"ts":"2025-01-09T14:40:01.068","pid":48017,"tid":"25b8f4","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration"}
+{"ts":"2025-01-09T14:40:01.481","pid":48017,"tid":"25b8f1","sev":"warn","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] downloading pipeline configuration failed (rid:07cb3ec4-df00-4d39-9f9a-327a6ce19f53): stream truncated"}
+{"ts":"2025-01-09T14:40:01.481","pid":48017,"tid":"25b8f1","sev":"info","req":"-","sess":"-","site":"-","user":"-","k":"msg","v":"[endeavour-edpa-007] Setting spans filter: {is_blocking: false}"}
