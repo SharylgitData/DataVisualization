@@ -1,0 +1,121 @@
+Customer_ID,Region,Age,Income,Satisfaction_Score,Customer_Feedback
+1,North,25,55000,7.0,Great service
+2,South,34,,8.0,Very satisfied
+3,East,29,62000,5.0,Poor experience
+4,West,,59000,,Happy with purchase
+5,,45,75000,9.0,Not satisfied
+6,north,38,71000,,good service
+7,south,41,,6.0,bad experience
+8,East,39,48000,4.0,excellent product
+9,west,55,unknown,8.0,not bad
+10,,error,60000,5.0,Could be better
+11,North,27,67000,7.0,average
+12,East,43,,,Good Service
+13,South,,53000,6.0,Excellent!
+14,,35,72000,8.0,Service was okay
+15,west,44,n/a,9.0,Not happy
+16,South,unknown,68000,5.0,satisfactory
+17,east,28,52000,,very bad
+18,West,,,7.0,liked it
+19,,50,76000,6.0,didn't like it
+20,east,32,54000,8.0,loved it
+21,,34,unknown,,Great service
+22,NORTH,27,unknown,,Could be better
+23,,error,,,Poor experience
+24,,unknown,75000,,good service
+25,,unknown,76000,,excellent product
+26,,unknown,n/a,,Poor experience
+27,NORTH,error,,,loved it
+28,,25,n/a,,Service was okay
+29,south,35,,,excellent product
+30,east,error,,,very bad
+31,,25,,,Very satisfied
+32,,unknown,n/a,,Could be better
+33,north,unknown,n/a,,Good Service
+34,west,41,,,Could be better
+35,,unknown,n/a,,Happy with purchase
+36,WEST,38,,,satisfactory
+37,,32,55000,,Not satisfied
+38,,unknown,n/a,,loved it
+39,,error,,,didn't like it
+40,,32,,,very bad
+41,north,50,unknown,,Service was okay
+42,south,32,,,excellent product
+43,,28,,,Good Service
+44,,29,,,liked it
+45,,unknown,,,Could be better
+46,east,28,unknown,,Good Service
+47,NORTH,44,,,average
+48,SOUTH,error,55000,,excellent product
+49,,error,54000,,Poor experience
+50,,45,52000,,Happy with purchase
+51,,28,55000,,very bad
+52,north,unknown,68000,,good service
+53,WEST,27,59000,,Could be better
+54,south,unknown,unknown,,Could be better
+55,north,error,,,Happy with purchase
+56,WEST,unknown,55000,,Happy with purchase
+57,,28,59000,,Very satisfied
+58,north,27,,,Happy with purchase
+59,,error,,,Service was okay
+60,west,39,75000,,Service was okay
+61,south,error,,,excellent product
+62,east,34,,,Excellent!
+63,WEST,error,,,good service
+64,EAST,error,,,average
+65,east,25,54000,,Could be better
+66,,unknown,,,Not happy
+67,,29,53000,,satisfactory
+68,,32,48000,,liked it
+69,,unknown,unknown,,loved it
+70,,45,,,Great service
+71,,error,48000,,didn't like it
+72,EAST,error,unknown,,Could be better
+73,,43,,,bad experience
+74,WEST,error,n/a,,Happy with purchase
+75,,39,,,not bad
+76,,error,n/a,,Not satisfied
+77,east,error,59000,,Excellent!
+78,EAST,unknown,,,Service was okay
+79,east,32,unknown,,Could be better
+80,,unknown,60000,,Service was okay
+81,SOUTH,unknown,unknown,,not bad
+82,east,unknown,,,Service was okay
+83,,45,,,Could be better
+84,,41,,,bad experience
+85,north,45,,,not bad
+86,,error,n/a,,excellent product
+87,SOUTH,50,unknown,,Poor experience
+88,,error,n/a,,liked it
+89,,error,n/a,,Poor experience
+90,,29,48000,,Not happy
+91,west,34,76000,,satisfactory
+92,,error,62000,,Poor experience
+93,,unknown,,,Could be better
+94,,error,,,Excellent!
+95,,error,unknown,,very bad
+96,,45,,,liked it
+97,,41,48000,,Not satisfied
+98,,unknown,53000,,Not satisfied
+99,,27,62000,,very bad
+100,,unknown,52000,,Excellent!
+101,,unknown,71000,,good service
+102,WEST,32,unknown,,Excellent!
+103,,44,n/a,,Happy with purchase
+104,,35,59000,,not bad
+105,SOUTH,unknown,,,Not satisfied
+106,,27,unknown,,Good Service
+107,WEST,unknown,,,Not satisfied
+108,east,error,n/a,,not bad
+109,,unknown,unknown,,loved it
+110,,error,59000,,not bad
+111,,unknown,unknown,,loved it
+112,WEST,unknown,unknown,,not bad
+113,EAST,error,59000,,Not satisfied
+114,NORTH,28,,,Not satisfied
+115,west,45,,,Excellent!
+116,,error,unknown,,average
+117,,unknown,,,Could be better
+118,,25,53000,,satisfactory
+119,EAST,29,unknown,,bad experience
+120,south,44,,,liked it
